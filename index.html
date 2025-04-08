@@ -14,16 +14,32 @@
 </head>
 <body>
   <nav>
-    <ul class="nav-links">
-      <li><a href="#team">TEAM</a></li>
-      <li><a href="#gallery">GALLERY</a></li>
+    <ul class="nav-left">
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
-    <span class="logo">OPTIMUS</span>
-    <ul class="nav-links">
-      <li><a href="#about">ABOUT</a></li>
-      <li><a href="#contact">CONTACT</a></li>
+  
+    <div class="logo">OPTIMUS</div>
+  
+    <ul class="nav-right">
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#services">Services</a></li>
+    </ul>
+  
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  
+    <ul class="mobile-menu" id="mobileMenu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#services">Services</a></li>
     </ul>
   </nav>
+  
   <section class="hero">
     <div class="hero-text" data-aos="fade-right" data-aos-duration="1000">
       <h1>Welcome to <span class="highlight">Optimus</span></h1>
